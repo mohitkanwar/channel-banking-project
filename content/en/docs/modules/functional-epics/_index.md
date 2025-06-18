@@ -1,7 +1,6 @@
 ---
 title: Epics
 linkTitle: Epics
-menu: {main: {weight: 1}}
 ---
 
 {{% pageinfo %}}
