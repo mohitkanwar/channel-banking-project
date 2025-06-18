@@ -1,5 +1,5 @@
 baseURL: https://example.docsy.dev
-title: Goldydocs
+title: Channel Banking Application
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -16,7 +16,7 @@ enableRobotsTXT: true
 enableGitInfo: true
 
 # Comment out to disable taxonomies in Docsy
-# disableKinds: [taxonomy]
+disableKinds: [taxonomy]
 
 # You can add your own taxonomies
 taxonomies:
@@ -46,28 +46,9 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Channel Banking Application
     params:
-      description: A Docsy example site
-  # cSpell:disable
-  'no':
-    languageName: Norsk
-    contentDir: content/no
-    title: Gulldoks
-    params:
-      description: Docsy er operativsystem for skyen
-      time_format_default: 02.01.2006
-      time_format_blog: 02.01.2006
-  fa:
-    languageDirection: rtl
-    languageName: "فارسی (Persian)"
-    contentDir: content/fa
-    title: "اسناد گلدی"
-    params:
-      description: "یک نمونه برای پوسته داکسی"
-      time_format_default: 2006.01.02
-      time_format_blog: 2006.01.02
-  # cSpell:enable
+      description: An example of a channel banking application
 
 markup:
   goldmark:
@@ -123,10 +104,8 @@ params:
   url_latest_version: https://example.com
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  github_repo: https://github.com/google/docsy-example
-
-  # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/google/docsy
+  github_repo: https://github.com/mohitkanwar/channel-banking-project
+  github_project_repo: https://github.com/mohitkanwar/channel-banking-project
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
@@ -142,11 +121,11 @@ params:
   offlineSearch: false
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
-  prism_syntax_highlighting: false
+  prism_syntax_highlighting: true
 
   copyright:
-    authors: Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2018
+    authors: Mohit Kanwar 
+    from_year: 2025
 
   # User interface configuration
   ui:
@@ -155,7 +134,7 @@ params:
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
     navbar_logo: true
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
-    navbar_translucent_over_cover_disable: false
+    navbar_translucent_over_cover_disable: true
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: false
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
@@ -169,9 +148,9 @@ params:
       enable: true
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
-        Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
+        Glad to hear it! Please <a href="https://github.com/mohitkanwar/channel-banking-project/issues/new"> tell us how we can improve</a>.
       'no': >-
-        Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
+        Sorry to hear that. Please <a href="https://github.com/mohitkanwar/channel-banking-project/issues/new"> tell us how we can improve</a>.
 
     # Adds a reading time to the top of each doc.
     # If you want this feature, but occasionally need to remove the Reading time from a single page,
