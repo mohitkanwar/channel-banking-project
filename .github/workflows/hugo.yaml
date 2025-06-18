@@ -52,6 +52,9 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Install PostCSS CLI and plugins
+        run: |
+          npm install --save-dev postcss postcss-cli autoprefixer
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
