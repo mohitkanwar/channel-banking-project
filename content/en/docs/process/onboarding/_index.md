@@ -1,7 +1,6 @@
 ---
 title: Escalation Process
 linkTitle: Escalation
-menu: {main: {weight: 1}}
 ---
 
 {{% pageinfo %}}

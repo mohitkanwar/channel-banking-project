@@ -1,7 +1,6 @@
 ---
 title: Process
 linkTitle: Process
-menu: {main: {weight: 20}}
 ---
 
 {{% pageinfo %}}
