@@ -1,7 +1,7 @@
 ---
 title: Channel Banking
 linkTitle: About
-menu: {main: {weight: 10}}
+menu: {main: {weight: 1}}
 ---
 
 {{% blocks/cover title="Channel Banking" image_anchor="bottom" height="auto" image="images/home.gif"%}}
