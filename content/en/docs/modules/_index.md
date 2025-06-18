@@ -1,7 +1,6 @@
 ---
 title: Modules
 linkTitle: Modules
-menu: {main: {weight: 20}}
 ---
 
 {{% pageinfo %}}

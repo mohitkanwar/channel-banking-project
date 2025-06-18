@@ -1,7 +1,6 @@
 ---
 title: Non Functional Requirements
 linkTitle: NFRs
-menu: {main: {weight: 1}}
 ---
 
 {{% pageinfo %}}
