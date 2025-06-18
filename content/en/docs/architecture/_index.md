@@ -1,7 +1,6 @@
 ---
 title: Architecture
 linkTitle: Architecture
-menu: {main: {weight: 20}}
 ---
 
 {{% pageinfo %}}
